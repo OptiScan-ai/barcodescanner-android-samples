@@ -1,0 +1,1 @@
+# barcodescanner-android-samples
