@@ -100,3 +100,8 @@ override fun onScanResultSuccess(result: ScanResult) {
  
 override fun onScanResultFailure(error: String) {}
 ```
+
+## Screen shots
+ ![device-2021-11-11-162104](https://user-images.githubusercontent.com/93595331/141308292-17970307-b49a-4fee-983f-4660e9dd0cf6.png)
+
+
