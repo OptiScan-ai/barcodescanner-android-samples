@@ -102,5 +102,4 @@ override fun onScanResultFailure(error: String) {}
 ```
 
 ## Screenshots
-![device-2021-11-11-162104](https://user-images.githubusercontent.com/93595331/141309376-46ca133d-6977-4a24-8adb-1a423853e1be.png)
-
+![device-2021-11-11-162104](https://user-images.githubusercontent.com/93595331/141309376-46ca133d-6977-4a24-8adb-1a423853e1be.png) ![device-2021-11-11-193112](https://user-images.githubusercontent.com/93595331/141311026-b03dc378-ae63-4fb9-a39b-bf0b9613839e.png)
