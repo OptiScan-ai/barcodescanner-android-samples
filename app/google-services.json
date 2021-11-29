@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "503366946685",
+    "project_id": "optiscan-6e32f",
+    "storage_bucket": "optiscan-6e32f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:503366946685:android:7defe0d863f6fabde18614",
+        "android_client_info": {
+          "package_name": "com.optiscan.demo.barcode"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "503366946685-3tcpflkhj63hb5k8s9onn853avbib70q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.optiscan.demo.barcode",
+            "certificate_hash": "bd91498f8e6069f72f0d7d6735fb8bf39905b8b6"
+          }
+        },
+        {
+          "client_id": "503366946685-g0ngjtl432spd62hcd0s8qqij2didv15.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.optiscan.demo.barcode",
+            "certificate_hash": "5a66d945f7292764e1bdd4ec92bea379a8f5cd84"
+          }
+        },
+        {
+          "client_id": "503366946685-7vkd8ca3sm794vpcufstq92p5br1i130.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBD7xCqTp7WpVDDA1LXMsgg93vGcnOK--g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "503366946685-7vkd8ca3sm794vpcufstq92p5br1i130.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

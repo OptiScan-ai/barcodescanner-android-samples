@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">OptiScanDemo</string>
+    <string name="btn_capture">Capture</string>
+    <string name="title"></string>
+    <string name="copy">copy</string>
+    <string name="select_scanner_by_barcode">Select Scanner By BarCode</string>
+    <string name="qr_code">QR CODE</string>
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/settingsLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.SettingsActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="8dp"
+        android:text="Additional Settings"
+        android:textStyle="bold"
+        android:textColor="@color/teal_700"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etThreshold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="Threshold"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <CheckBox
+        android:id="@+id/ch_autoflash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enable Auto Flashlight"
+        app:layout_constraintEnd_toEndOf="@+id/etThreshold"
+        app:layout_constraintStart_toStartOf="@+id/etThreshold"
+        app:layout_constraintTop_toBottomOf="@+id/etThreshold"/>
+
+    <CheckBox
+        android:id="@+id/ch_autoexposure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enable Auto Exposure"
+        app:layout_constraintEnd_toEndOf="@+id/ch_autoflash"
+        app:layout_constraintStart_toStartOf="@+id/ch_autoflash"
+        app:layout_constraintTop_toBottomOf="@+id/ch_autoflash"/>
+
+
+    <CheckBox
+        android:id="@+id/ch_debug"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enable Debug Mode"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/ch_autoflash"
+        app:layout_constraintStart_toStartOf="@+id/ch_autoflash"
+        app:layout_constraintTop_toBottomOf="@+id/ch_autoflash"/>
+
+    <CheckBox
+        android:id="@+id/ch_qr_barcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="Enable Qr/Barcode detection"
+        app:layout_constraintEnd_toEndOf="@+id/ch_debug"
+        app:layout_constraintStart_toStartOf="@+id/ch_debug"
+        app:layout_constraintTop_toBottomOf="@+id/ch_debug"/>
+
+    <Button
+        android:id="@+id/btnSetThreshold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="Set"
+        app:layout_constraintEnd_toEndOf="@+id/ch_autoexposure"
+        app:layout_constraintStart_toStartOf="@+id/ch_autoexposure"
+        app:layout_constraintTop_toBottomOf="@+id/ch_autoexposure" />
+
+    <TextView
+        android:id="@+id/txt_version_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textSize="12sp"
+        android:text="v"
+        android:textStyle="bold"
+        android:textColor="@color/teal_700"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,2 @@
+rootProject.name = "barcodescanner-android-samples"
+include ':app'
