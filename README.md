@@ -7,7 +7,7 @@ To use our Android library's code in another app module, proceed as follows:
 1.Open your build.gradle file and check that the module is now listed under dependencies if not then add this as dependency. 
 ```gradle
  dependencies { 
-              implementation 'com.optiscan:optiscan:X.X.X'
+              implementation 'ai.optiscan:optiscan:x.x.x' //1.0.1 is latest version
       } 
       
 ```
