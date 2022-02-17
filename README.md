@@ -72,12 +72,15 @@ mCameraScan?.setOnScanResultCallback(this)
     ?.updateConfidenceValue(confidence) 
     ?.setIsContinuousScan(isContinuousScan) 
 
-//Once Camera Permission Allowed by user we can start Optiscan using below command
+    /**
+     * Once Camera Permission Allowed by user we can start Optiscan using below command
+     */
+     
 if (PermissionUtils.checkPermission(this, Manifest.permission.CAMERA)) {
             mCameraScan?.startCamera()
         }
 
- /**
+    /**
      * This method is used to Stop the camera object.
      */
 
@@ -85,7 +88,8 @@ if (PermissionUtils.checkPermission(this, Manifest.permission.CAMERA)) {
         mCameraScan?.stopCamera()
         super.onStop()
     }
-   /**
+   
+    /**
      * This method is used to release the camera object.
      */
     override fun onDestroy() {
