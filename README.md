@@ -76,7 +76,7 @@ mCameraScan?.setOnScanResultCallback(this)
      * Once Camera Permission Allowed by user we can start Optiscan using below command
      */
      
-if (PermissionUtils.checkPermission(this, Manifest.permission.CAMERA)) {
+    if (PermissionUtils.checkPermission(this, Manifest.permission.CAMERA)) {
             mCameraScan?.startCamera()
         }
 
