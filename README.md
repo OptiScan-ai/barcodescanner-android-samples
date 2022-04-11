@@ -58,19 +58,17 @@ Val mCameraScan = OptiScanFactory.createScanSession(this, binding.previewView)
 //We can config other possible properties as we required. 
 
 mCameraScan?.setOnScanResultCallback(this) 
-    ?.setPlayBeep(true) 
-    ?.setVibrate(false) 
-    ?.setCameraConfig(CameraConfig()) 
-    ?.setAutoFlashlight(autoFlashlight) 
-    ?.setDebugMode(isDebug) 
-    ?.setScanType(scanType) 
-    ?.setDarkLightLux(4f) 
-    ?.setBrightLightLux(100f) 
-    ?.setQrBarcodeDetection(isQrBarcodeDetection) 
-    ?.bindFlashlightView(binding.ivFlash) 
-    ?.bindOverlayView(binding.trackingOverlay) 
-    ?.updateConfidenceValue(confidence) 
-    ?.setIsContinuousScan(isContinuousScan) 
+    ?.setPlayBeep(true) //enable or disable play beep sound 
+    ?.setVibrate(false) //enable or disable vibrate 
+    ?.setCameraConfig(CameraConfig()) //user can modify camera configuration 
+    ?.setAutoFlashlight(autoFlashlight) //enable or disable auto flash light mode
+    ?.setScanType(scanType) //pass scan type (qr_code, bar_code and any)
+    ?.setDarkLightLux(4f) //Low Light lux value
+    ?.setBrightLightLux(100f) //Bright Light lux
+    ?.bindFlashlightView(binding.ivFlash) //Pass flashlight view id
+    ?.bindOverlayView(binding.trackingOverlay) //pass tracking overlay view id
+    ?.updateConfidenceValue(confidence) //set confidence value 0.1 to 0.5)
+    ?.setIsContinuousScan(isContinuousScan) //by default true for continous scan
 
     /**
      * Once Camera Permission Allowed by user we can start Optiscan using below command
